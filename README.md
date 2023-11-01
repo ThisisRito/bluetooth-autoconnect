@@ -23,7 +23,7 @@ If you have packaged this for another disto, please open an issue or PR so the i
 ### Manual
 
 * Install the `bluetooth-autoconnect` script to somewhere in your `PATH`, such as `/usr/local/bin/`
-* If you are using systemd, consider installing the `bluetooth-autoconnect.service` file to `/etc/systemd/system/` and modifying it to reflect the location of where you installed the script
+* If you are using systemd, consider installing the `bluetooth-autoconnect.service` file to `/usr/lib/systemd/system/` and modifying it to reflect the location of where you installed the script
   - Enable the service with `sudo systemctl enable bluetooth-autoconnect`
 
 #### pulseaudio
